@@ -12,7 +12,7 @@
 # Note: Base Image name format {image-tag}-{php-version}
 #
 
-ARG LARADOCK_PHP_VERSION
+ARG LARADOCK_PHP_VERSION=7.2
 
 FROM laradock/php-fpm:2.5-${LARADOCK_PHP_VERSION}
 
